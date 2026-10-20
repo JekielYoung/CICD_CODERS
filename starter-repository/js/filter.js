@@ -2,5 +2,11 @@
 // TODO 1: If category is "All", return true.
 // TODO 2: Otherwise, return true only if event.category matches category.
 window.matchesCategory = function (event, category) {
-  return true; // Replace this line.
+  if(category == "All") {
+    return true;
+  } else if(event.category == category) {
+    return true;
+  } else {
+    return false;
+  }
 };
