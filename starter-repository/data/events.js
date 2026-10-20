@@ -57,5 +57,21 @@ window.EVENTS = [
     date: "10 Dec 2026",
     location: "Innovation Hub",
     description: "Put your coding skills to the test in a 24-hour hackathon."
+  },
+  {
+    id: 8,
+    title: "Minecraft mechanism",
+    category: "Community",
+    date: "5 Dec 2026",
+    location: "City Park",
+    description: "how much dedidnated wam i suould hauve on a surver?"
+  },
+  {
+    id: 9,
+    title: "monies!!!",
+    category: "Tech",
+    date: "10 Dec 2026",
+    location: "the entrance",
+    description: "can i have 10 dolar"
   }
 ];
