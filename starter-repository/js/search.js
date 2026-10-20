@@ -3,6 +3,13 @@
 // TODO 2: Otherwise return true only when the event's title OR location
 //         contains the query (case-insensitive).
 // Hint: .trim(), .toLowerCase(), .includes()
+
 window.matchesSearch = function (event, query) {
-  return true; // Replace this line.
+
+  const q = (query || "").trim().toLowerCase();
+  if (q === "") return true;
+
+  const title = (event.title || "").toLowerCase();
+  const location = (event.location || "").toLowerCase();
+  return title.includes(q) || location.includes(q);
 };
