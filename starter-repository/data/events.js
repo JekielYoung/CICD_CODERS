@@ -25,5 +25,37 @@ window.EVENTS = [
     date: "20 Nov 2026",
     location: "Campus Plaza",
     description: "Explore student interest groups and sign up to get involved."
+  },
+  {
+    id: 4,
+    title: "Guest Lecture: AI in Healthcare",
+    category: "Tech",
+    date: "25 Nov 2026",
+    location: "Science Building",
+    description: "Learn about the latest advancements in AI applications in healthcare."
+  },
+  {
+    id: 5,
+    title: "Resume Building Workshop",
+    category: "Career",
+    date: "30 Nov 2026",
+    location: "Career Center",
+    description: "Get tips and guidance on creating a standout resume for tech jobs."
+  },
+  {
+    id: 6,
+    title: "Community Volunteer Day",
+    category: "Community",
+    date: "5 Dec 2026",
+    location: "City Park",
+    description: "Give back to the community by participating in local volunteer activities."
+  },
+  {
+    id: 7,
+    title: "Hackathon Weekend",
+    category: "Tech",
+    date: "10 Dec 2026",
+    location: "Innovation Hub",
+    description: "Put your coding skills to the test in a 24-hour hackathon."
   }
 ];
