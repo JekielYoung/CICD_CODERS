@@ -73,5 +73,13 @@ window.EVENTS = [
     date: "10 Dec 2026",
     location: "the entrance",
     description: "can i have 10 dolar"
+  },
+  {
+    id: 10,
+    title: "what's 9 and 10",
+    category: "Tech",
+    date: "9 October 2021",
+    location: "house",
+    description: "water ice salt aye"
   }
 ];
